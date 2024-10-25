@@ -1,0 +1,32 @@
+<html>
+
+<head>
+</head>
+
+<body>
+    <h1>Changeable Pagragraph text!</h1>
+
+    <script type="text/javascript" src="practice2.js"></script>
+    Border Red value(0-255): <input type="text" id="b_R" value=""> <br>
+    Border Green value(0-255): <input type="text" id="b_G" value=""> <br>
+    Border Blue value(0-255): <input type="text" id="b_B" value=""> <br>
+    Border Width: <input type="text" id="b_width" value=""> <br>
+    Background Red value(0-255): <input type="text" id="bg_R" value=""> <br>
+    Background Green value(0-255): <input type="text" id="bg_G" value=""> <br>
+    Background Blue value(0-255): <input type="text" id="bg_B" value=""> <br>
+    <button onclick="alert_paragraph_color()">Change it up!</button> <br><br><br>
+
+    <style>
+        #paragraph {
+            border-style: solid;
+            border-width: 5px;
+        }
+    </style>
+    
+    <div id="paragraph">
+        Dummy Text
+    </div>
+
+</body>
+</html>
+
